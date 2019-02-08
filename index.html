@@ -5,21 +5,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello Bulma!</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--Bulma cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <!--FA CDN-->
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
 </head>
 
 <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+  <div class="container">
+    <div class="columns">
+      <div class="column" id="left-side">
+        <img src="img/bg-intro.svg" alt="Blue wave background">
+        <div class="illustration">
+          <img src="img/illustration-main.svg" alt="A beautiful illustration of an man holding the key of a folder">
+        </div>
+      </div>
+      <div class="column" id="right-side">
+        <header>
+          <img src="img/logo.svg" alt="Logo of the company">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+        </header>
+        <div class="info">
+          <h1 class="title">All your files on one secure location, accessible anywhere</h1>
+          <p>Fylo store all your most important files in one secure location.Access them wherever you need, share and
+            collaborate with friends, family and co-workers</p>
+        </div>
+        <div class="form">
+            <div class="field">
+                <div class="control">
+                  <input class="input is-large" type="text" placeholder="Large input">
+                </div>
+              </div>
+              <a class="button is-primary is-large">Primary</a>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
