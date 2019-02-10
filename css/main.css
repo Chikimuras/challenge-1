@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0;
+    height: 100%;
+}
+
+#left-side{
+    background-image: linear-gradient(to right top, hsl(243, 86%, 85%), hsl(243, 87%, 12%));
+}
